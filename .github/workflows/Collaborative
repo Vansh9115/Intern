@@ -1,0 +1,9 @@
+<script src="https://cdn.pubnub.com/pubnub-3.15.2.min.js"></script>
+//this is already created pubns API which will help in getting the js ready for the execution of our task and connecting all the users at a time
+var channel = 'my-draw-demo';
+
+var pubnub = PUBNUB.init({
+    publish_key: 'your-publish-key',
+    subscribe_key: 'your-subscribe-key',
+    ssl: true
+});//this will help in initialiing api and thus getting the desired script
